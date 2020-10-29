@@ -1,5 +1,5 @@
 import React from 'react';
-import TraineeApi from '../../../Api/trainee';
+import TraineeApi from '../../../Api/trainee/trainee';
 
 class TraineeList extends React.Component {
   constructor(props) {

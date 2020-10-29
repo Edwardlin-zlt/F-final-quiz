@@ -1,5 +1,5 @@
 import axios from 'axios';
-import baseURL from './base';
+import baseURL from '../base';
 
 const TraineeApi = {
   getAll: async () => {
