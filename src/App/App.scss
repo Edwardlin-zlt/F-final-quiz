@@ -1,2 +1,20 @@
+@import 'src/style/variables';
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $bg-gray;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .App {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
