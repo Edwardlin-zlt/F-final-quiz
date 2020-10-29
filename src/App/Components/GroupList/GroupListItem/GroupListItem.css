@@ -16,3 +16,11 @@
     top: 10px;
     left: 45%;
 }
+.trainee-names {
+    height: 50px;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    padding: 4px 14px;
+}

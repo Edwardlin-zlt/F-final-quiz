@@ -1,5 +1,7 @@
 import React from 'react';
 import TraineeApi from '../../../Api/trainee/trainee';
+import NameBox from "../NameBox/NameBox";
+import "./TraineeList.css"
 
 class TraineeList extends React.Component {
   constructor(props) {
@@ -16,10 +18,13 @@ class TraineeList extends React.Component {
   }
 
   render() {
+      const {trainees} = this.state;
     return (
       <section className="groups-all-trainee">
         <h3>学员列表</h3>
-        <p>Trainees: {this.state.trainees.toLocaleString()}</p>
+        <div className="trainees">
+          {trainees.map(trainee => <NameBox person={trainee} key={trainee.id}/>)}
+        </div>
       </section>
     );
   }

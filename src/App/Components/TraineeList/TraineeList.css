@@ -1,0 +1,4 @@
+.trainees {
+    display: flex;
+    flex-wrap: wrap;
+}

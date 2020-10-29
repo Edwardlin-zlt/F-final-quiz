@@ -10,9 +10,10 @@ function GroupListItem(props) {
             <div className="group-bar">
                 <span className="group-id">{id} 组</span>
                 <span className="group-trainer">
-          {trainers && trainers.map((trainer) => <NameBox person={trainer} key={trainer.id}/>)}
-        </span>
+                  {trainers && trainers.map((trainer) => <NameBox person={trainer} key={trainer.id}/>)}
+                </span>
             </div>
+
             <div className="trainee-names">
                 {trainees && trainees.map((trainee) => <NameBox person={trainee} key={trainee.id}/>)}
             </div>
