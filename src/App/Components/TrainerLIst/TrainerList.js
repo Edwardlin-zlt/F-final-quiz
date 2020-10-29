@@ -1,5 +1,5 @@
 import React from 'react';
-import TrainerApi from '../../Api/trainer/trainer';
+import TrainerApi from '../../../Api/trainer/trainer';
 
 class TrainerList extends React.Component {
   constructor(props) {

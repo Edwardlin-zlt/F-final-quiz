@@ -3,7 +3,7 @@ import TraineeList from './Components/TraineeList/TraineeList';
 import Header from './Components/Header/Header';
 import './App.scss';
 import GroupList from './Components/GroupList/GroupList';
-import TrainerList from './TrainerLIst/TrainerList';
+import TrainerList from './Components/TrainerLIst/TrainerList';
 
 class App extends Component {
   render() {
