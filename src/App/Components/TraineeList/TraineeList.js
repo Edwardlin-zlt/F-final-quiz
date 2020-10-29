@@ -19,7 +19,7 @@ class TraineeList extends React.Component {
     return (
       <section className="groups-all-trainee">
         <h3>学员列表</h3>
-        <p>Trainees: {this.state.trainees}</p>
+        <p>Trainees: {this.state.trainees.toLocaleString()}</p>
       </section>
     );
   }
